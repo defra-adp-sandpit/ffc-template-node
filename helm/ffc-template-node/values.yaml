@@ -1,4 +1,4 @@
-environment: production
+environment: development
 environmentCode:
 name: ffc-template-node
 namespace: ffc-demo
@@ -6,7 +6,7 @@ workstream: ffc-demo
 image: ffc-template-node
 
 labels:
-  component: service
+  component: web
 
 appInsights:
   connectionString:
