@@ -4,5 +4,5 @@ spec:
   template:
     spec:
       containers:
-      - {{ include "adp-helm-library.container" (list . "ffc-template-node.container") }}
+      - {{ include "adp-helm-library.container" (list . "adp-template-node.container") }}
 {{- end -}}
